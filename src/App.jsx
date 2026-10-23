@@ -421,14 +421,9 @@ function App() {
                   <div className="mb-6 flex flex-wrap items-end justify-between gap-3 border-b border-white/[0.08] pb-4">
                     <div>
                      
-<div className="mb-3 flex items-center gap-3">
-  <span className="text-3xl font-light tracking-tight text-violet-400">
-    {category.number}
-  </span>
-  <span className="text-xs font-semibold tracking-[0.18em] text-slate-500">
-    / {String(categoryProjects.length).padStart(2, "0")} PROJECTS
-  </span>
-</div>
+<p className="mb-2 text-xs font-medium text-violet-400">
+  {categoryProjects.length} projects
+</p>
 
                       <h3 className="text-xl font-semibold tracking-tight text-white sm:text-2xl">
                         {category.name}
